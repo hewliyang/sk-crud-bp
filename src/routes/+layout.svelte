@@ -5,6 +5,12 @@
 	import '@skeletonlabs/skeleton/styles/all.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
+	// Syntax highlighting for codeblocks
+	import hljs from 'highlight.js';
+	import 'highlight.js/styles/github-dark.css';
+	import { storeHighlightJs } from '@skeletonlabs/skeleton';
+
+	storeHighlightJs.set(hljs);
 
 	import { AppBar, AppShell, Avatar, Drawer, Modal, Toast, drawerStore } from "@skeletonlabs/skeleton";
 	import type { DrawerSettings } from '@skeletonlabs/skeleton';
