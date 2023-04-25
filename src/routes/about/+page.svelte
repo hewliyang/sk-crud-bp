@@ -40,7 +40,7 @@ def reddit_agent():
 		</ul>
 		<button class="btn variant-glass-primary">Hello World</button>
 		<p> Skeleton UI also provides code-block components that look like: </p>
-		<CodeBlock language="python" code={placeholderCode}/>
+		<CodeBlock language="python" code={placeholderCode} />
 		<p> Syntax highlighting is done with <code>highlight.js</code></p>
 	</div>
 </div>

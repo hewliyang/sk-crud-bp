@@ -33,6 +33,8 @@
 		<a href="/new" class="btn variant-glass-primary"> New Note </a>	
 	</div>
 
+	<hr />
+
 	{#if $noteStore.length === 0}
 		<p class="my-4">Click <strong>New Note</strong> to create your first note!</p>
 	{/if}
