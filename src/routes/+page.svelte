@@ -2,6 +2,9 @@
 	import { noteStore } from "$lib/stores";
 	import { toastStore, type ModalSettings, modalStore } from "@skeletonlabs/skeleton";
 
+	import { signIn, signOut } from "@auth/sveltekit/client";
+	import { page } from "$app/stores";
+
 	function deleteNote(noteId: string): void {
 		const confirmDelete: ModalSettings = {
 			type: 'confirm',
