@@ -39,7 +39,7 @@ def reddit_agent():
 			<li><code>/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
 		</ul>
 		<button class="btn variant-glass-primary">Hello World</button>
-		<p> Skeleton UI also provides code-block components that look like: </p>
+		<blockquote> Skeleton UI also provides code-block components that look like: </blockquote>
 		<CodeBlock language="python" code={placeholderCode} />
 		<p> Syntax highlighting is done with <code>highlight.js</code></p>
 	</div>

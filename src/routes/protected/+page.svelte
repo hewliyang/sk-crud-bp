@@ -21,7 +21,7 @@
         <h3 class="mb-5">Auth Details</h3>
         <CodeBlock language="json" code={JSON.stringify(session, null, 2)} />
     {:else}
-        <button on:click={() => signIn()} class="btn variant-filled-tertiary">Sign In</button>
+        <button on:click={() => signIn()} class="btn variant-filled-primary">Sign In</button>
         <span>You are not signed in!</span>
     {/if}
 </div>

@@ -15,5 +15,6 @@
         <li><a class="{curPath === '/' ? 'variant-filled-primary' : ''}" href='/' on:click={drawerClose} >Home</a></li>
         <li><a class="{curPath === '/about' ? 'variant-filled-primary' : ''}" href="/about" on:click={drawerClose}>About</a></li>
         <li><a class="{curPath === '/protected' ? 'variant-filled-primary' : ''}" href="/protected" on:click={drawerClose}>Protected</a></li>
+        <li><a class="{curPath === '/database' ? 'variant-filled-primary' : ''}" href="/database" on:click={drawerClose}>Database</a></li>
     </ul>
 </nav>
